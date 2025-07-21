@@ -1,0 +1,205 @@
+.navDiv {
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.home-buttons {
+    display:flex;
+    gap:1rem;
+}
+.home-buttons button a, .about-first-div p a {
+    text-decoration: none;
+    color:black;
+}
+#Home, #Projects, #Contact{
+    background-image: url("background1.jpg");
+    width:100vw;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
+.navbar-nav {
+    gap:5rem;
+}
+#About {
+    background: url("background2.jpg");
+}
+.about-first-div {
+    padding: 2rem;
+  margin: 1rem;
+}
+.about-first-div h2 , #Projects h2 , .contactDiv h2{
+  text-align: center;
+  color: white;
+  font-size: 4rem;;
+}
+.about-first-div div {
+    width:50%;
+}
+.about-first-div div p {
+    color: white;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+.ProjectsFirstDiv {
+    padding: 2rem;
+    overflow: auto;
+}
+.projectsSubDiv {
+    margin: 1rem;
+  padding: 1rem;
+  gap: 2rem;
+}
+.contactDiv {
+    padding:2rem;
+}
+.contactSubDiv h5 {
+    font-size: 2rem;
+}
+.contactSubDiv ul {
+    list-style-type: none;
+}
+.contactSubDiv ul li  {
+  color: #fdfdfd;
+}
+.contactSubDiv ul li a  {
+  color: #fdfdfd;
+  text-decoration: none;
+}
+.contactSubDiv a {
+    color:white;
+    text-decoration: none;
+}
+.contactSubDiv ul {
+    padding-left:0;
+}
+@media screen and (min-width:320px) and (max-width:400px) {
+    .navbar-nav {
+        gap:0;
+    }
+    .about-first-div div {
+        width:100%;
+    }
+    .projectsSubDiv {
+        flex-direction: column;
+        margin:1rem;
+        padding:0;
+    }
+    .about-first-div h2 , #Projects h2, .contactDiv h2 {
+        font-size: 3rem;
+    }
+    .about-first-div div p {
+        line-height: 1.5rem;
+    }
+    .ProjectsFirstDiv {
+        padding: 1rem; 
+    }
+    .contactSubDiv {
+        margin:2rem;
+    }
+    .contactSubDiv h5 {
+        font-size: 1.5rem;
+    }
+    .contactSubDiv p {
+        text-align: justify;
+    }
+}
+@media screen and (min-width:401px) and (max-width:455px) {
+    .navbar-nav {
+        gap:0;
+    }
+    .about-first-div div {
+        width:100%;
+    }
+    .projectsSubDiv {
+        flex-direction: column;
+        margin:1rem;
+        padding:0;
+    }
+    .about-first-div h2 , #Projects h2, .contactDiv h2 {
+        font-size: 3rem;
+    }
+    .about-first-div div p {
+        line-height: 2rem;
+    }
+    .ProjectsFirstDiv {
+        padding: 1rem; 
+    }
+    .contactSubDiv {
+        margin:2rem;
+    }
+    .contactSubDiv h5 {
+        font-size: 1.5rem;
+    }
+    .contactSubDiv p {
+        text-align: justify;
+    }
+}
+@media screen and (min-width:456px) and (max-width:480px) {
+    .navbar-nav {
+        gap:0;
+    }
+    .about-first-div div {
+        width:100%;
+    }
+    .projectsSubDiv {
+        flex-direction: column;
+        margin:1rem;
+        padding:0;
+    }
+    .about-first-div h2 , #Projects h2, .contactDiv h2 {
+        font-size: 3rem;
+    }
+    .about-first-div div p {
+        line-height: 2.5rem;
+    }
+    .ProjectsFirstDiv {
+        padding: 1rem; 
+    }
+    .contactSubDiv {
+        margin:2rem;
+    }
+    .contactSubDiv h5 {
+        font-size: 1.5rem;
+    }
+    .contactSubDiv p {
+        text-align: justify;
+    }
+}
+@media screen and (min-width:481px) and (max-width:878px) {
+    .navbar-nav {
+        gap:0;
+    }
+    .about-first-div div {
+        width:100%;
+    }
+    .projectsSubDiv {
+        flex-direction: column;
+        margin:1rem;
+        padding:0;
+    }
+    .about-first-div h2 , #Projects h2, .contactDiv h2 {
+        font-size: 3rem;
+    }
+    .about-first-div div p {
+        line-height: 3rem;
+    }
+    .ProjectsFirstDiv {
+        padding: 1rem; 
+    }
+    .contactSubDiv {
+        margin:2rem;
+    }
+    .contactSubDiv h5 {
+        font-size: 1.5rem;
+    }
+    .contactSubDiv p {
+        text-align: justify;
+    }
+}
+@media screen and (min-width:879px) and (max-width:1055px) {
+    .about-first-div div {
+        width:100%;
+    }
+}
