@@ -15,6 +15,7 @@
 #Home, #Projects, #Contact{
     background-image: url("background1.jpg");
     width:100vw;
+    background-size:cover;
 }
 #navbarNav {
     justify-content: flex-end;
@@ -24,6 +25,7 @@
 }
 #About {
     background: url("background2.jpg");
+    background-size:cover;
 }
 .about-first-div {
     padding: 2rem;
